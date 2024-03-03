@@ -1,0 +1,7 @@
+
+{
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(’ïÔñ8Ìœá“à1
+L	java:S106
+"+Replace this use of System.out by a logger.(¸šñÙüÿÿÿÿ8×Óß“à1
+J
+java:S1172"(Remove this unused method parameter "a".(í±—¦üÿÿÿÿ8ØÓß“à1

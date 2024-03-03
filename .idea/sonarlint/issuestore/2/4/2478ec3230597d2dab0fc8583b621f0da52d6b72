@@ -1,0 +1,113 @@
+
+L
+java:S3740!"/Provide the parametrized type for this generic.(ä½ı“8¥ƒõÁß1
+L
+java:S3740p"/Provide the parametrized type for this generic.(Ù„õª8¦ƒõÁß1
+L
+java:S3740p"/Provide the parametrized type for this generic.(Ù„õª8¦ƒõÁß1
+L
+java:S3740w"/Provide the parametrized type for this generic.(Ö…Õë8¦ƒõÁß1
+L
+java:S3740w"/Provide the parametrized type for this generic.(Ö…Õë8¦ƒõÁß1
+R
+java:S3740‘"/Provide the parametrized type for this generic.(Ãô²Ùûÿÿÿÿ8¦ƒõÁß1
+R
+java:S3740‘"/Provide the parametrized type for this generic.(Ãô²Ùûÿÿÿÿ8¦ƒõÁß1
+M
+java:S3740œ"/Provide the parametrized type for this generic.(Û±ñ„8¦ƒõÁß1
+M
+java:S3740œ"/Provide the parametrized type for this generic.(Û±ñ„8¦ƒõÁß1
+M
+java:S3740Ÿ"/Provide the parametrized type for this generic.(ŸÖ¾è8¦ƒõÁß1
+M
+java:S3740Ÿ"/Provide the parametrized type for this generic.(ŸÖ¾è8¦ƒõÁß1
+L
+java:S3740¦"/Provide the parametrized type for this generic.(Ğ‘¶;8¦ƒõÁß1
+L
+java:S3740¦"/Provide the parametrized type for this generic.(Ğ‘¶;8¦ƒõÁß1
+R
+java:S3740À"/Provide the parametrized type for this generic.(Õ·†šıÿÿÿÿ8¦ƒõÁß1
+R
+java:S3740Ç"/Provide the parametrized type for this generic.(›à¿×ÿÿÿÿÿ8¦ƒõÁß1
+R
+java:S3740Ê"/Provide the parametrized type for this generic.(Ù†ğ¥øÿÿÿÿ8¦ƒõÁß1
+M
+java:S3740Ñ"/Provide the parametrized type for this generic.(ØåûÅ8¦ƒõÁß1
+M
+java:S3740Û"/Provide the parametrized type for this generic.(•ùé¦8¦ƒõÁß1
+v
+java:S2293\"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö¦ŸÅ8¦ƒõÁß1
+v
+java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ôÖ8¦ƒõÁß1
+w
+java:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(´Š©8¦ƒõÁß1
+d
+java:S1192Ã"FDefine a constant instead of duplicating this literal "Dart2" 3 times.(òªÜÏ8§ƒõÁß1
+i
+java:S1192t"GDefine a constant instead of duplicating this literal "Python" 9 times.(Ôó–˜ûÿÿÿÿ8§ƒõÁß1
+j
+java:S1192³"GDefine a constant instead of duplicating this literal "poll: " 3 times.(Òò™Ïùÿÿÿÿ8§ƒõÁß1
+i
+java:S1192F"GDefine a constant instead of duplicating this literal "PYTHON" 8 times.(È˜ğûıÿÿÿÿ8§ƒõÁß1
+L	java:S106"+Replace this use of System.out by a logger.(¬ øÿÿÿÿ8ÀƒõÁß1
+L	java:S106"+Replace this use of System.out by a logger.(Å­Ëİúÿÿÿÿ8ÃƒõÁß1
+G	java:S106"+Replace this use of System.out by a logger.(¥ğÚß8ÃƒõÁß1
+G	java:S106"+Replace this use of System.out by a logger.(ğĞÕÖ8ÄƒõÁß1
+L	java:S1060"+Replace this use of System.out by a logger.(òşÚúøÿÿÿÿ8ÄƒõÁß1
+L	java:S1065"+Replace this use of System.out by a logger.(îªÜşøÿÿÿÿ8ÅƒõÁß1
+G	java:S1066"+Replace this use of System.out by a logger.(²üÂÜ8ÅƒõÁß1
+G	java:S1067"+Replace this use of System.out by a logger.(ˆ‹¼æ8ÅƒõÁß1
+L	java:S1069"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8ÅƒõÁß1
+G	java:S106;"+Replace this use of System.out by a logger.(¢ãœÁ8ÅƒõÁß1
+G	java:S106<"+Replace this use of System.out by a logger.(¾»§‹8ÅƒõÁß1
+F	java:S106="+Replace this use of System.out by a logger.(»œÇ)8ÅƒõÁß1
+G	java:S106>"+Replace this use of System.out by a logger.(÷À¸8ÅƒõÁß1
+L	java:S106?"+Replace this use of System.out by a logger.(º×å—ıÿÿÿÿ8ÅƒõÁß1
+G	java:S106@"+Replace this use of System.out by a logger.(ïŞº¯8ÅƒõÁß1
+L	java:S106A"+Replace this use of System.out by a logger.(şÛ‹øıÿÿÿÿ8ÆƒõÁß1
+j	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—™™ú8ÅƒõÁß1
+L	java:S106E"+Replace this use of System.out by a logger.(Š§ÖÀøÿÿÿÿ8ÆƒõÁß1
+G	java:S106G"+Replace this use of System.out by a logger.(€ÙåÍ8ÆƒõÁß1
+G	java:S106H"+Replace this use of System.out by a logger.(øÇ£8ÆƒõÁß1
+G	java:S106I"+Replace this use of System.out by a logger.(Ñöİš8ÆƒõÁß1
+L	java:S106J"+Replace this use of System.out by a logger.(åŞáóşÿÿÿÿ8ÆƒõÁß1
+L	java:S106K"+Replace this use of System.out by a logger.(öªÑ¾üÿÿÿÿ8ÆƒõÁß1
+L	java:S106L"+Replace this use of System.out by a logger.(ºİ¿şÿÿÿÿ8ÇƒõÁß1
+L	java:S106N"+Replace this use of System.out by a logger.(–ÈÔ§şÿÿÿÿ8ÇƒõÁß1
+F	java:S106R"+Replace this use of System.out by a logger.(õ¹Ÿ"8ÇƒõÁß1
+G	java:S106V"+Replace this use of System.out by a logger.(ÌÇ®Ù8ÇƒõÁß1
+j	java:S100Z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒöèù8ÇƒõÁß1
+G	java:S106["+Replace this use of System.out by a logger.(¬—øÉ8ÈƒõÁß1
+G	java:S106g"+Replace this use of System.out by a logger.(®¢Ú8ÉƒõÁß1
+L	java:S106h"+Replace this use of System.out by a logger.(Ãæ…¹ûÿÿÿÿ8ÉƒõÁß1
+F	java:S106j"+Replace this use of System.out by a logger.(õ¹Ÿ"8ÉƒõÁß1
+j	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¾êÈ8ÉƒõÁß1
+L	java:S106o"+Replace this use of System.out by a logger.(¹¥‹øÿÿÿÿ8ÉƒõÁß1
+L	java:S106v"+Replace this use of System.out by a logger.(¯Šª’ıÿÿÿÿ8ÊƒõÁß1
+M	java:S106‚"+Replace this use of System.out by a logger.(†€ÉŒşÿÿÿÿ8ËƒõÁß1
+H	java:S106Œ"+Replace this use of System.out by a logger.(ïî»8ÌƒõÁß1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÔ“–ûÿÿÿÿ8ËƒõÁß1
+M	java:S106"+Replace this use of System.out by a logger.(—‚¹ùúÿÿÿÿ8ÌƒõÁß1
+M	java:S106—"+Replace this use of System.out by a logger.(İÜÉ¤ùÿÿÿÿ8ÍƒõÁß1
+k	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÓƒ8ÌƒõÁß1
+H	java:S106›"+Replace this use of System.out by a logger.(µ®8ÍƒõÁß1
+H	java:S106"+Replace this use of System.out by a logger.(˜›Ëó8ÎƒõÁß1
+H	java:S106¡"+Replace this use of System.out by a logger.(¯ İ“8ÎƒõÁß1
+k	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú´½õ8ÎƒõÁß1
+M	java:S106¥"+Replace this use of System.out by a logger.(ÃÓ¯…ûÿÿÿÿ8ĞƒõÁß1
+M	java:S106²"+Replace this use of System.out by a logger.(ÅÇä–ıÿÿÿÿ8ĞƒõÁß1
+M	java:S106³"+Replace this use of System.out by a logger.(Òò™Ïùÿÿÿÿ8ĞƒõÁß1
+M	java:S106´"+Replace this use of System.out by a logger.(Òò™Ïùÿÿÿÿ8ĞƒõÁß1
+H	java:S106µ"+Replace this use of System.out by a logger.(ı…šˆ8ĞƒõÁß1
+H	java:S106¶"+Replace this use of System.out by a logger.(³ù×ú8ÑƒõÁß1
+M	java:S106¹"+Replace this use of System.out by a logger.(Òò™Ïùÿÿÿÿ8ÑƒõÁß1
+M	java:S106»"+Replace this use of System.out by a logger.(ÅÇä–ıÿÿÿÿ8ÒƒõÁß1
+k	java:S100¾"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÌÓÁ8ÑƒõÁß1
+M	java:S106¿"+Replace this use of System.out by a logger.(­‹¼úÿÿÿÿ8ÓƒõÁß1
+H	java:S106Æ"+Replace this use of System.out by a logger.(ÿ¾  8ÓƒõÁß1
+H	java:S106È"+Replace this use of System.out by a logger.(€ê8ÔƒõÁß1
+M	java:S106Ğ"+Replace this use of System.out by a logger.(ÿ€×Ûÿÿÿÿÿ8ÔƒõÁß1
+H	java:S106Ò"+Replace this use of System.out by a logger.(¾Ò¢©8ÕƒõÁß1
+M	java:S106Ú"+Replace this use of System.out by a logger.(¢§ë¼ûÿÿÿÿ8ÕƒõÁß1
+M	java:S106Ü"+Replace this use of System.out by a logger.(ï—Ï«ûÿÿÿÿ8ÖƒõÁß1
+H	java:S106Ş"+Replace this use of System.out by a logger.(Š¾¡Ô8Ï•ùÁß1
