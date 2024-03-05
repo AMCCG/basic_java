@@ -1,0 +1,64 @@
+Java - Loop Control
+    ใช้เมื่อ you need to execute a block of code several number of times.
+    Java Loop
+        while loop
+        for loop
+        do...while loop
+        Enhanced for loop
+            As of Java 5, the enhanced for loop was introduced.
+            This is mainly used to traverse collection of elements including arrays.
+    Loop Control Statements
+        break
+            Terminates the loop or switch statement
+        continue
+            To skip the remainder of its body and immediately retest its condition prior to reiterating.
+
+Java - Decision Making
+    if statement
+	if...else statement
+	nested if statement
+	switch statement
+
+Java - if-else Statement
+    The if else statement is used to execute two code blocks based on the given condition.
+
+Java - switch statement
+    The Java switch statement allows a variable to be tested for equality against a list of values.
+    Each value is called a case
+    Rules
+        - ตัวแปรที่ใช้ใน switch statement can only be integers, convertable integers (byte, short, char),
+          strings and enums.
+        - มีได้หลาย case statement
+        - The value for a case must be the same data type as the variable in the
+          switch and it must be a constant or a literal.
+        - When the variable being switched on is equal to a case,
+          the statements following that case will execute until a break statement is reached.
+        - When a break statement is reached, the switch terminates,
+          and the flow of control jumps to the next line following the switch statement.
+        - Not every case needs to contain a break. If no break appears,
+          the flow of control will fall through to subsequent cases until a break is reached.
+        - A switch statement can have an optional default case, which must appear at the end of the switch.
+          The default case can be used for performing a task when none of the cases is true.
+          No break is needed in the default case.
+
+Java - for Loop
+    when you know how many times a task is to be repeated
+
+Java - for each Loop
+    when you do not know how many times a task is to be repeated.
+
+Java - while Loop
+    A while loop statement repeatedly executes a code block as long as a given condition is true.
+
+Java - do...while Loop
+    A do while loop is guaranteed to execute at least one time.
+    The do-while loop is an exit control loop, where the condition is checked after executing the loop's body.
+
+Java - break Statement
+    When the break statement is encountered inside a loop,
+    the loop is immediately terminated and the program control resumes at the next statement
+    following the loop.
+
+Java - continue Statement
+    The continue statement can be used in any of the loop control structures.
+    It causes the loop to immediately jump to the next iteration of the loop.
