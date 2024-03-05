@@ -1,29 +1,0 @@
-
-G	java:S106"+Replace this use of System.out by a logger.(ˆÉÑÁ8Î×ÅŸß1
-L	java:S106"+Replace this use of System.out by a logger.(Ößáªùÿÿÿÿ8Î×ÅŸß1
-G	java:S106"+Replace this use of System.out by a logger.(ËÛùÜ8Î×ÅŸß1
-G	java:S106"+Replace this use of System.out by a logger.(ìÚ¬É8Î×ÅŸß1
-L	java:S106	"+Replace this use of System.out by a logger.(í÷å­ıÿÿÿÿ8Î×ÅŸß1
-L	java:S106
-"+Replace this use of System.out by a logger.(Ò„Äçùÿÿÿÿ8Ï×ÅŸß1
-L	java:S106"+Replace this use of System.out by a logger.(õÁÄÛùÿÿÿÿ8Ï×ÅŸß1
-G	java:S106"+Replace this use of System.out by a logger.(Ê²‘Ş8¡ÆŸß1
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯´ÅÅ8Ï×ÅŸß1
-V
-java:S3400"9Remove this method and declare a constant for this value.(È¸å8Ï×ÅŸß1
-I
-java:S1172",Remove this unused method parameter "total".(¯´ÅÅ8Ï×ÅŸß1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ„ø¾ûÿÿÿÿ8Ğ×ÅŸß1
-W
-java:S1994":Move the update of "total" into this loop's update clause.(Ñ¥«8Ğ×ÅŸß1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯§´‚úÿÿÿÿ8Ğ×ÅŸß1
-j	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äù÷å8Ñ×ÅŸß1
-X
-java:S1994)";Move the update of "total2" into this loop's update clause.(¤Û¦è8Ñ×ÅŸß1
-o	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÙ½ ÿÿÿÿÿ8Ñ×ÅŸß1
-o	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿì·Ûùÿÿÿÿ8Ñ×ÅŸß1
-o	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®‹¸‰ıÿÿÿÿ8Ò×ÅŸß1
-V
-java:S3400H"9Remove this method and declare a constant for this value.(–×™ø8Ò×ÅŸß1
-N
-java:S1172G",Remove this unused method parameter "total".(®‹¸‰ıÿÿÿÿ8Ò×ÅŸß1
