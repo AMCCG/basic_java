@@ -40,3 +40,11 @@ c
 3src/pattren/creational/factory/IAppSpaceAction.java,7\3\736eb093921be203c2c747b3130d36de6cff67c1
 Y
 )src/pattren/creational/factory/Tiger.java,7\d\7da25429797b9fc3ae3fe7312528de08efb73fe6
+h
+8src/hackerrank/datastructure/Test02SubArrayDivision.java,0\a\0aceb37ab392e1cb2696e6505bdbd21da051e5e9
+U
+%src/tutorialspoint/01_Java_Tutorial/s,f\c\fca44bded62cb90a34528fcc20accc99929758e4
+^
+.src/tutorialspoint/01_Java_Tutorial/sumary.txt,c\5\c56e8e276edacb936b362a91c0a48daf1fc4f481
+e
+5src/tutorialspoint/02_Java_Control_Statements/summary,a\b\aba4ec292cc41088a3bb53b099e2a7d3ae273d8c

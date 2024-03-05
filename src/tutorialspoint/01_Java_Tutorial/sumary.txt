@@ -1,0 +1,169 @@
+History of Java
+    Java สร้างโดย James Gosling and released in 1995
+    Write Once, Run Anywhere (WORA)
+
+Feature of Java
+    Object Oriented
+        Polymorphism
+        Inheritance
+        Encapsulation
+        Abstraction
+        Classes
+        Objects
+        InstanceMethod
+        Message Passing
+    Platform Independent
+        Java ไม่ได้ complie เฉพาะ platform เเต่จะ complie ในรูปเเบบ byte code
+        เเละจะนำไป complie บน JVM ที่อยู่บน platform นั้นๆเเทน
+        Java ถูก designed ให้เป็น Write Once, Run Anywhere (WORA)
+    Simple
+        ถูกออกเเบให้ง่ายต่อการเรียนรู้ ถ้าเข้าใจ concept ของ OOP
+    Secure
+        ถูกออกเเบบให้มีความ Secure สูงโดยที่ developer ไม่จำเป็นต้องไป interact memory หรือ operation ที่อยู่
+        ภายใต้ system ตรงๆ มี Exception Handeling ที่ช่วยให้ Developer จัดการกับ error ได้
+        Automatic garbage collection ที่ช่วยให้ maintaining system memory
+    Architecture-neutral
+        สามารถทำงานในหลายๆ processors ได้
+    Portable
+        มีความเป็นกลางทางสถาปัตยกรรมและไม่มีแง่มุมที่ขึ้นอยู่กับการใช้งานของข้อกำหนด
+        คอมไพเลอร์ใน Java เขียนด้วย ANSI C โดยมีขอบเขตความสามารถในการพกพาที่ชัดเจน ซึ่งเป็นเซตย่อย POSIX
+        เนื่องจากความสามารถในการพกพานี้ java จึงได้รับความนิยมในทันทีตั้งแต่เริ่มก่อตั้ง
+        มีประโยชน์อย่างยิ่งสำหรับแอปพลิเคชันบนอินเทอร์เน็ตซึ่งมีแพลตฟอร์มที่แตกต่างกันไปในแต่ละสถานที่และสามารถนำไปใช้กับหลายแพลตฟอร์มได้
+        ดังนั้นการทำงานร่วมกันระหว่างนักพัฒนาจึงเป็นเรื่องง่าย
+    Robust
+        มี compile time error checking เเละ runtime checking, Automatic garbage collection
+        strong memory management, no pointer, no direct access to system memory, exception handling
+    Multithreaded
+        มี MultiThreaded
+    Interpreted
+        Java byte code จะถูกแปลงเป็น native machine เเละจะไม่ถูกเก็บลงที่ได้
+        JVM อยู่ภายใต้ javac compiler and hardware
+        javac compiles Java code เป็น Bytecode ซึ่งจะเข้าใจได้ด้วย JVM
+        JVM จะ compiles Bytecode เป็น binary โดยใช้ JIT (Just-in-time) compilation
+    High Performance
+        Method inlining
+        Dead code elimination
+        Heuristics for optimizing call sites
+        Constant folding
+    Distributed
+        Java is designed for the distributed environment of the internet.
+    Dynamic
+        Java เป็นไดนามิกมากกว่า C หรือ C++ เนื่องจากได้รับการออกแบบให้ปรับให้เข้ากับสภาพแวดล้อมที่เปลี่ยนแปลงไป
+
+Java - JDK vs JRE vs JVM
+    JDk = Java Development Kit
+    JRE = Java Runtime Environment
+    JVM = Java Virtual Machine
+
+Java Basic
+    Public Static Void Main
+        main method จะถูก JVM เรียกใช้งานเมื่อ program ถูก load เข้าสู่ memory
+        method main เอาไว่ใช้ execute โปรเเกรม ถ้า method main จบการทำงาน โปรเเกรมก็จะ
+        จบการทำงานลงไปด้วย
+
+    Java Modifiers
+        Access Modifiers − default, public , protected, private
+        Non-access Modifiers − final, abstract, strictfp
+
+    Java Variables
+        Local Variables
+        Class Variables (Static Variables)
+        Instance Variables (Non-static Variables)
+
+    Java Arrays
+        Arrays are objects that store multiple variables of the same type
+
+Java - Variable Types
+    Java Variables Types
+        Local variables
+            Local variables are declared in methods, constructors, or blocks.
+        Instance variables
+            Instance variables are declared in a class, but outside a method, constructor or any block.
+        Class/Static variables
+            Class variables also known as static variables are declared with the static keyword in a class,
+            but outside a method, constructor or a block.
+
+Java - Data Types
+    Primitive Data Types
+        byte
+        short
+        int
+        long
+        float
+        double
+        boolean
+    Reference/Object Data Types
+        The reference data types are created using defined constructors of the classes.
+            Example
+                // Creating an object of 'Animal' class
+                Animal animal = new Animal("giraffe");
+                // Creating an object of 'String' class
+                String myString = new String("Hello, World!");
+
+Java - Type Casting
+    การ convert one data type to another
+    มี 2 เเบบใน Java
+        Widening type casting (implicit type casting)
+            โดย a smaller type is converted into a larger type.
+            it is done by the compiler automatically.
+            byte > short > char > int > long > float > double
+            Example
+                int num1 = 5004;
+                double num2 = 2.5;
+                double sum = num1 + num2;
+        Narrowing type casting (explicit type casting or explicit type conversion)
+            it is done by the programmer manually.
+            In the narrowing type casting a larger type can be converted into a smaller type.
+            Example
+                int num1 = 5004;
+                double doubleNum = (double) num1;
+
+Java - Unicode System
+    Unicode System in Java
+        ASCII − for the United States.
+        ISO 8859-1 − for Western European Language.
+        KOI-8 − for Russian.
+        GB18030 and BIG-5 − for Chinese.
+
+Java - Basic Operators
+    Arithmetic Operators
+        ใช้ในการคำนวณ
+            + (Addition)
+            - (Subtraction)
+            * (Multiplication)
+            / (Division)
+            % (Modulus)
+            ++ (Increment)
+            -- (Decrement)
+    Relational Operators
+         == (equal to)
+         != (not equal to)
+         > (greater than)
+         < (less than)
+         >= (greater than or equal to)
+         <= (less than or equal to)
+    Bitwise Operators
+        & (bitwise and)
+        | (bitwise or)
+        ^ (bitwise XOR)
+        ⁓ (bitwise compliment)
+        << (left shift)
+        >> (right shift)
+        >>> (zero fill right shift)
+    Logical Operators
+        && (logical and)
+        || (logical or)
+        ! (logical not)
+    Assignment Operators
+        =
+        +=, -=, *=, /=, %=
+        <<=, >>=, &=, ^=, |=
+    Misc Operators
+        Conditional Operator ( ? : )
+            Example
+                variable x = (expression) ? value if true : value if false
+        instanceof Operator
+            Example
+                 boolean result = name instanceof String;
+                 Vehicle a = new Car();
+                 boolean result =  a instanceof Car;
