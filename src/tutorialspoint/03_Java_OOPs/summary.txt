@@ -1,0 +1,207 @@
+Java - OOPs (Object-Oriented Programming) Concepts
+    Objects
+        จะมีลักษณะเฉพาะคือ (states and behavior)
+        Object เป็น variable of the type class หรือ Object คือ instance ของ class
+    Class
+        คือ blueprint หรือคือ data type ของ object type
+        ในเเต่ละ Class จะมี method เเละ attribute ที่จะสามารถเข้าถึงหรือจัดการผ่าน objects
+    Inheritance
+        การ reuse the functionalities of existing classes to new classes
+        การสืบทอดคุณสมบัติ
+    Polymorphism
+        we use two concepts method overloading and method overriding.
+    Abstraction
+        In object-oriented programming, an abstraction is a technique of hiding
+        internal details and showing functionalities.
+        The abstract classes and interfaces are used to achieve abstraction in Java.
+    Encapsulation
+        The encapsulation restricts direct access to important data
+
+Java - Object and Classes
+     the classes and objects are the basic and important features of object-oriented programming system
+        Classes
+        Objects
+        Inheritance
+        Polymorphism
+        Encapsulation
+        Abstraction
+        Instance
+        Method
+        Message Passing
+     Java Objects
+        An object is a variable of the type class
+     Rules for using the Classes and Objects Concepts
+        - There can be only one public class per source file.
+        - A source file can have multiple non-public classes.
+        - The public class name should be the name of the source file as well which should be appended by .java at the end.
+          For example − the class name is public class Employee{}
+          then the source file should be as Employee.java.
+        - If the class is defined inside a package,
+          then the package statement should be the first statement in the source file.
+        - If import statements are present, then they must be written between the package statement and the class declaration.
+          If there are no package statements, then the import statement should be the first line in the source file
+        - Import and package statements will imply to all the classes present in the source file. It is not possible to
+          declare different import and/or package statements to different classes in the source file.
+
+Java - Class Attributes
+Java - Class Methods
+Java - Methods
+Java - Variable Scopes
+    default − Visible to the package. No modifiers are needed.
+    private − Visible to the class only.
+    public − Visible to the world.
+    protected − Visible to the package and all subclasses.
+
+Java - Constructors
+     Constructor used to initialize an object when it is created.
+
+Java - Access Modifiers
+    There are four level of access:
+        Visible to the package, the default. No modifiers are needed.
+        Visible to the class only (private).
+        Visible to the world (public).
+        Visible to the package and all subclasses (protected).
+    Types of Java Access Modifiers
+        Default (No keyword required)
+        Private
+        Protected
+        Public
+    Java Access Modifiers and Inheritance
+        - Methods declared public in a superclass also must be public in all subclasses.
+        - Methods declared protected in a superclass must either be protected or public in subclasses;
+          they cannot be private.
+        - Methods declared private are not inherited at all, so there is no rule for them.
+
+Java - Inheritance
+    IS-A Relationship
+        This object is a type of that object.
+    HAS-A relationship
+        ความสัมพันธ์นี้ขึ้นอยู่กับการใช้งานเป็นหลัก
+
+Java - Aggregation
+    An aggregation is a relationship between two classes where one class
+    contains an instance of another class.
+    Example
+        when an object A contains a reference to another object B or
+        we can say Object A has a HAS-A relationship with Object B,
+        then it is termed as Aggregation in Java Programming.
+    Example
+        public class Vehicle{}
+        public class Speed{}
+
+        public class Van extends Vehicle {
+            private Speed sp;
+        }
+
+Java - Polymorphism
+    The most common use of polymorphism in OOP occurs when a parent class
+    reference is used to refer to a child class object.
+    Types of Java Polymorphism
+        Compile Time Polymorphism
+            Compile-time polymorphism is also known as static polymorphism and
+            it is implemented by method overloading.
+        Run Time Polymorphism
+            Run time polymorphism is also known as dynamic method dispatch and
+            it is implemented by the method overriding.
+
+Java - Overriding
+    In object-oriented terms, overriding means to override the functionality of an existing method.
+
+Java - Method Overloading
+    When a class has two or more methods by the same name but different parameters
+
+Java - Dynamic Binding
+    Characteristics of Java Dynamic Binding
+        Linking − Linking between method call and method implementation is resolved at run time.
+        Resolve mechanism − Dynamic binding uses object type to resolve binding.
+        Example − Method overriding is the example of Dynamic binding.
+        Type of Methods − Virtual methods use dynamic binding.
+
+Java - Static Binding
+    Static binding refers to the process in which linking between method call and method
+    implementation is resolved at compile time.
+    Static binding is also known as compile-time binding or early binding.
+        Linking − Linking between method call and method implementation is resolved at compile time.
+        Resolve mechanism − Static binding uses type of the class and fields to resolve binding.
+        Example − Method overloading is the example of Static binding.
+        Type of Methods − private, final and static methods and variables uses static binding.
+
+Java - Instance Initializer Block
+    An instance initializer block is a block of code that is declared inside a class to initialize the instance data members.
+    The instance initializer block is similar to the Java constructor but its execution and uses are different.
+    Example
+        public class Tester {
+           public int a;
+           { a = 10; }
+        }
+    Characteristics of Instance Initializer Block
+        - Instance initializer block is called once an object is created.
+        - Instance initializer block is called before any constructor of an object is invoked.
+        - In case of child class, Instance initializer block will be called after super class constructor call.
+        - Instance initializer block can be used to execute multiple statements.
+        - Instance initializer block is generally used to instantiate multiple values fields like arrays.
+
+Java - Abstraction
+Java - Encapsulation
+Java - Interfaces
+Java - Packages
+Java - Inner classes
+    Class ที่สร้างอยู่ภายใต้ class
+        The class written within is called the nested class.
+        The class that holds the inner class is called the outer class.
+    Nested classes เเบ่งเป็น
+        Non-static nested classes (Inner Classes)
+            − These are the non-static members of a class.
+        Static nested classes
+            − These are the static members of a class.
+    Types of Java Inner Classes
+        Inner Class
+        Method-local Inner Class
+        Anonymous Inner Class
+    Static Nested Class
+        Example
+            public class Outer {
+               static class Nested_Demo {
+                  public void my_method() {
+                     System.out.println("This is my nested class");
+                  }
+               }
+
+               public static void main(String args[]) {
+                  Outer.Nested_Demo nested = new Outer.Nested_Demo();
+                  nested.my_method();
+               }
+            }
+
+Java - Static Classes
+Java - Anonymous Classes
+    Use of Java Anonymous Inner Classes
+        Anonymous inner classes are used when you want to create a simple class
+        that is needed for one time only for a specific purpose.
+    Syntax
+        new(argument-list){
+           // Anonymous class body
+        }
+    Types of Anonymous Inner Classes in Java
+        Anonymous inner class that extends a class
+        Anonymous inner class that implements an interface
+        Anonymous inner class as an argument
+
+Java - Singleton Class
+    Java Singleton Design Pattern
+        Singleton pattern is one of the simplest design patterns in Java.
+        This type of design pattern comes under creational pattern as this pattern
+        provides one of the best ways to create an object.
+    Java Singleton Class
+        This pattern involves a single class which is responsible to create
+        an object while making sure that only single object gets created.
+Java - Wrapper Classes
+    Normally, when we work with Numbers, we use primitive data types such as byte, int, long, double, etc.
+    Java Wrapper Classes
+        - Wrapper classes are those whose objects wraps a primitive data type within them.
+        - Byte, Character, Double, Integer, Float, Long, Short.
+        - At the time of instantiation, these classes accept a primitive datatype directly, or in the form of String.
+        - Wrapper classes provide methods to, convert primitive datatypes within them to String objects and, to compare them with other objects etc.
+        - Using wrapper classes, you can also add primitive datatypes to various Collection objects such as ArrayList, HashMap etc. You can also pass primitive values over a network using wrapper classes.
+Java - Enum Classes
+    Java Enum class is the common base class for all enumeration types
