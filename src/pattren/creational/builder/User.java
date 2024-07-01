@@ -1,10 +1,10 @@
 package pattren.creational.builder;
 
 public class User {
-    private String name; // required field
-    private String email; //  required field
-    private String phone; // optional field
-    private String city; // optional field
+    private final String name; // required field
+    private final String email; //  required field
+    private final String phone; // optional field
+    private final String city; // optional field
 
     public User(UserBuilder userBuilder) {
         this.name = userBuilder.getName();

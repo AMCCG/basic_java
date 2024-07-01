@@ -13,7 +13,7 @@ public class Test05 {
             int n = in.nextInt();
             int sum = a;
             for (int j = 0; j < n; j++) {
-                sum += b * Math.pow(2, j);
+                sum += (int) (b * Math.pow(2, j));
                 System.out.print(sum + " ");
             }
             System.out.println();

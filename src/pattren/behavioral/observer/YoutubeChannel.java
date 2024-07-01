@@ -5,8 +5,8 @@ import java.util.List;
 
 public class YoutubeChannel implements Subject {
 
-    private String name;
-    private List<Observer> subscribers = new ArrayList<>();
+    private final String name;
+    private final List<Observer> subscribers = new ArrayList<>();
 
     public YoutubeChannel(String name) {
         this.name = name;

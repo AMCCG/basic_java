@@ -15,7 +15,7 @@ public class Test02SubArrayDivision {
         System.out.println(input2);
         System.out.println("Expected: 0 and then result is " + res2);
 
-        List<Integer> input3 = Arrays.asList(4);
+        List<Integer> input3 = List.of(4);
         int res3 = birthday(input3, 4, 1);
         System.out.println(input3);
         System.out.println("Expected: 1 and then result is " + res3);

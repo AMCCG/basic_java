@@ -2,7 +2,7 @@ package pattren.structural.adapter;
 
 public class CellPhoneAdapter implements CellPhone {
 
-    private FriendCellPhone friendCellPhone;
+    private final FriendCellPhone friendCellPhone;
 
     public CellPhoneAdapter(FriendCellPhone friendCellPhone) {
         this.friendCellPhone = friendCellPhone;

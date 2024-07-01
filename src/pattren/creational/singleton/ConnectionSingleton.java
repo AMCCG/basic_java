@@ -5,7 +5,7 @@ import java.util.UUID;
 public class ConnectionSingleton {
     private static ConnectionSingleton instance;
 
-    private String uuid;
+    private final String uuid;
 
     private ConnectionSingleton() {
         System.out.println("Create ConnectionSingleton");

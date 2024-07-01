@@ -1,8 +1,8 @@
 package pattren.structural.facade.bankaccount;
 
 public class BankAccountFacade {
-    private int accountNumber;
-    private int securityCode;
+    private final int accountNumber;
+    private final int securityCode;
 
     AccountNumberCheck accountNumberCheck;
     SecurityCodeCheck securityCodeCheck;

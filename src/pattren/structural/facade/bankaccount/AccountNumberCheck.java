@@ -2,17 +2,11 @@ package pattren.structural.facade.bankaccount;
 
 public class AccountNumberCheck {
 
-    private int accountNumber = 12345678;
-
     public int getAccountNumber() {
-        return accountNumber;
+        return 12345678;
     }
 
     public boolean accountActive(int acctNumToCheck) {
-        if (acctNumToCheck == getAccountNumber()) {
-            return true;
-        } else {
-            return false;
-        }
+        return acctNumToCheck == getAccountNumber();
     }
 }

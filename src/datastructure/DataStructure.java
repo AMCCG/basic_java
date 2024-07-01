@@ -30,7 +30,7 @@ public class DataStructure {
         System.out.println("Map: " + mapC);
         System.out.println("Map sorted: " + mapCSorted);
 
-        Map<Character, Integer> result = new TreeMap();
+        Map<Character, Integer> result = new TreeMap<>();
         boolean isFound = false;
         for (Map.Entry<Character, Integer> entry : mapCSorted.entrySet()) {
             for (Map.Entry<Character, Integer> entry2 : result.entrySet()) {
@@ -72,9 +72,9 @@ public class DataStructure {
         System.out.println("indexOf: " + list.indexOf("PYTHON"));
         System.out.println("lastIndexOf: " + list.lastIndexOf("PYTHON"));
         System.out.println("contains: " + list.contains("PYTHON"));
-        System.out.println("containsAll: " + list.containsAll(Arrays.asList("JAVA", "C++", "PYTHON")));
-        System.out.println("containsAll: " + list.containsAll(Arrays.asList("JAVA", "C++", "PYTHON", "1", "2")));
-        Boolean retainAll = list.retainAll(Arrays.asList("JAVA", "C++", "PYTHON", "C#"));
+        System.out.println("containsAll: " + new HashSet<>(list).containsAll(Arrays.asList("JAVA", "C++", "PYTHON")));
+        System.out.println("containsAll: " + new HashSet<>(list).containsAll(Arrays.asList("JAVA", "C++", "PYTHON", "1", "2")));
+        boolean retainAll = list.retainAll(Arrays.asList("JAVA", "C++", "PYTHON", "C#"));
         System.out.println("retainAll: " + retainAll);
         list.set(4, "GO");
         Collections.sort(list);
@@ -89,13 +89,13 @@ public class DataStructure {
 
     private static void LinkedList() {
         System.out.println("LinkedList");
-        List<String> al = new ArrayList<String>();//creating arraylist
+        List<String> al = new ArrayList<>();//creating arraylist
         al.add("Ravi");//adding object in arraylist
         al.add("Vijay");
         al.add("Ravi");
         al.add("Ajay");
 
-        List<String> al2 = new LinkedList<String>();//creating linkedlist
+        List<String> al2 = new LinkedList<>();//creating linkedlist
         al2.add("James"); //adding object in linkedlist
         al2.add("Serena");
         al2.add("Swati");
@@ -109,14 +109,14 @@ public class DataStructure {
 
     private static void HashSet() {
         System.out.println("HashSet");
-        HashSet hashSet = new HashSet();
+        HashSet<Object> hashSet = new HashSet<>();
         hashSet.add("Java");
         hashSet.add("C#");
         hashSet.add("Dart");
         hashSet.add("Python");
         hashSet.add("Dart");
         System.out.println("HashSet: " + hashSet);
-        HashSet hashSet2 = new HashSet();
+        HashSet<Integer> hashSet2 = new HashSet<>();
         hashSet2.add(1);
         hashSet2.add(3);
         hashSet2.add(5);
@@ -128,7 +128,7 @@ public class DataStructure {
         hashSet2.add(7);
         hashSet.addAll(Arrays.asList(1, 2, 4, 5));
         System.out.println("hashSet2: " + hashSet2);
-        HashSet<String> hashSet3 = new HashSet<String>();
+        HashSet<String> hashSet3 = new HashSet<>();
         hashSet3.add("Java");
         hashSet3.add("3");
         hashSet3.add("Python");
@@ -142,7 +142,7 @@ public class DataStructure {
 
     private static void LinkedHashSet() {
         System.out.println("LinkedHashSet");
-        LinkedHashSet hashSet = new LinkedHashSet();
+        LinkedHashSet<Object> hashSet = new LinkedHashSet<>();
         hashSet.add("Java");
         hashSet.add("C#");
         hashSet.add("Dart");
@@ -153,17 +153,15 @@ public class DataStructure {
 
     private static void TreeSet() {
         System.out.println("treeSet");
-        TreeSet treeSet = new TreeSet();
-        treeSet.addAll(Arrays.asList(9, 2, 3, 4, 1, 5, 2, 3));
+        TreeSet<Object> treeSet = new TreeSet<>(Arrays.asList(9, 2, 3, 4, 1, 5, 2, 3));
         System.out.println("treeSet: " + treeSet);
-        TreeSet treeSet2 = new TreeSet();
-        treeSet2.addAll(Arrays.asList("Bird", "Dog", "Ant", "Snake"));
+        TreeSet<Object> treeSet2 = new TreeSet<>(Arrays.asList("Bird", "Dog", "Ant", "Snake"));
         System.out.println("treeSet2: " + treeSet2);
     }
 
     private static void PriorityQueue() {
         System.out.println("PriorityQueue");
-        PriorityQueue priorityQueue = new PriorityQueue();
+        PriorityQueue<Object> priorityQueue = new PriorityQueue<>();
         priorityQueue.add(9);
         priorityQueue.add(1);
         priorityQueue.add(2);
@@ -189,7 +187,7 @@ public class DataStructure {
 
     private static void Map() {
         System.out.println("Map");
-        HashMap<String, String> hashmap = new HashMap();
+        HashMap<String, String> hashmap = new HashMap<>();
         hashmap.put("Java", "Java");
         hashmap.put("Dart", "Dart");
         hashmap.put("Dart2", "Dart");
@@ -199,7 +197,7 @@ public class DataStructure {
         for (Map.Entry m : hashmap.entrySet()) {
             System.out.println("m: " + m);
         }
-        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap();
+        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>();
         linkedHashMap.put("Java", "Java");
         linkedHashMap.put("Dart", "Dart");
         linkedHashMap.put("Dart2", "Dart");

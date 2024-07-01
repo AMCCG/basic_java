@@ -2,8 +2,8 @@ package pattren.structural.decorator;
 
 // Concrete Decorator: BorderDecorator
 public class BorderDecorator extends ShapeDecorator {
-    private String color;
-    private int widthInPxs;
+    private final String color;
+    private final int widthInPxs;
 
     public BorderDecorator(Shape decoratedShape, String color, int widthInPxs) {
         super(decoratedShape);
@@ -14,6 +14,6 @@ public class BorderDecorator extends ShapeDecorator {
     @Override
     public void draw() {
         super.draw();
-        System.out.println("Adding " + widthInPxs + "px, " + color + " color border to " + getName() + ".");
+        System.out.println("Adding " + widthInPxs + "px, " + color + " color border to " + name() + ".");
     }
 }

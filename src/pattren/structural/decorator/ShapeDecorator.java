@@ -2,7 +2,7 @@ package pattren.structural.decorator;
 
 // Abstract Decorator Class
 abstract class ShapeDecorator implements Shape {
-    private Shape decoratedShape;
+    private final Shape decoratedShape;
 
     public ShapeDecorator(Shape decoratedShape) {
         this.decoratedShape = decoratedShape;
@@ -14,7 +14,7 @@ abstract class ShapeDecorator implements Shape {
     }
 
     @Override
-    public String getName() {
-        return decoratedShape.getName();
+    public String name() {
+        return decoratedShape.name();
     }
 }
